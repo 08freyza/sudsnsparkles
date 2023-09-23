@@ -1,0 +1,277 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fs-26 {
+    font-size: 26px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-17 {
+    font-size: 17px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-42 {
+    font-size: 42px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-36 {
+    font-size: 36px;
+}
+
+.text-bluesky {
+    color: #3252DF;
+}
+
+.text-navysky {
+    color: #152C5B;
+}
+
+.text-specialgrey {
+    color: #646161;
+}
+
+.text-speciallightgrey {
+    color: #b0b0b0;
+}
+
+.nav-color {
+    color: #152C5B;
+}
+
+.nav-color:hover {
+    color: #3252DF;
+}
+
+.nav-color:active {
+    color: #3252DF;
+}
+
+.navbar-nav .nav-link.nav-color.active {
+    color: #3252DF;
+}
+
+.bg-special-red {
+    background-color: #D71313;
+}
+
+.bg-special-green {
+    background-color: #38E54D;
+}
+
+.bg-special-yellow {
+    background-color: #FDFF00;
+}
+
+.bg-special-primary {
+    background-color: #3252DF;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #3252DF;
+    --bs-btn-border-color: #3252DF;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #28A745;
+    --bs-btn-border-color: #28A745;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #24b049;
+    --bs-btn-hover-border-color: #24b049;
+    --bs-btn-focus-shadow-rgb: 60, 153, 110;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #24b049;
+    --bs-btn-active-border-color: #24b049;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #198741;
+    --bs-btn-disabled-border-color: #198741;
+}
+
+.border-radius-home-1 {
+    border-radius: 100px 15px 15px 15px;
+}
+
+.border-radius-home-2 {
+    border-radius: 15px 100px 100px 15px;
+}
+
+.border-radius-home-3 {
+    border-radius: 100px 15px 15px 100px;
+}
+
+#why-choose-us-main > .row > .title-why-choose-us > h1:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 340px;
+    height: 4px;
+    background: #FF498B;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    left: calc(50% - 170px);
+}
+
+#about-us-main > .row > .title-about-us > h1:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 190px;
+    height: 4px;
+    background: #FF498B;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    left: calc(50% - 95px);
+}
+
+section {
+    scroll-margin-top: 100px;
+}
+
+#map {
+    height: 493.5px;
+    width: 100%;
+}
+
+.custom-map-control-button {
+    background-color: #fff;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    padding: 0 0.5em;
+    font: 400 18px Roboto, Arial, sans-serif;
+    overflow: hidden;
+    height: 40px;
+    cursor: pointer;
+}
+
+.custom-map-control-button:hover {
+    background: rgb(235, 235, 235);
+}
+
+.spinner-wrapper {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.spinner-border {
+    height: 60px;
+    width: 60px;
+}
+
+.w-special-img {
+    width: 89%;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+@media (min-width: 0px) {
+    .animate {
+        animation-duration: 0.3s;
+        -webkit-animation-duration: 0.3s;
+        animation-fill-mode: both;
+        -webkit-animation-fill-mode: both;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes slideIn {
+    0% {
+        -webkit-transform: transform;
+        -webkit-opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        -webkit-opacity: 1;
+    }
+
+    0% {
+        -webkit-transform: translateY(1rem);
+        -webkit-opacity: 0;
+    }
+}
+
+.slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+}
